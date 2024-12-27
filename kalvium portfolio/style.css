@@ -8,7 +8,7 @@
 .homediv{
     min-width:100vw;
     min-height:100vh;
-    background: url(./background.png);
+    background: url(./background3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
+    background-color:transparent;
     padding: 10px 20px;
     position: sticky;
     top: 0;
