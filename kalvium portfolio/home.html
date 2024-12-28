@@ -12,9 +12,16 @@
     <div class="homediv">
 
         <nav class="navbar">
+            
+            
             <button class="nav-btn" onclick="navigateTo('home.html')">Home</button>
-            <button class="nav-btn" onclick="navigateTo('Squad63.html')">Squad63</button>
-            <button class="nav-btn" onclick="navigateTo('Squad64.html')">Squad64</button>
+            <div class="dropdown">
+            <button class="nav-btn">Squads</button>
+            <div class="dropdown-content">
+                <a href="#squad63">Squad 63</a>
+                <a href="#squad64">Squad 64</a>
+            </div>
+            </div>
             <button class="nav-btn" onclick="navigateTo('Mentors.html')">Mentors</button>
             <button class="nav-btn" onclick="navigateTo('KPhotos.html')">KPhotos</button>
             <button class="nav-btn" onclick="navigateTo('Achievements.html')">Achievements</button>
@@ -22,9 +29,9 @@
             <button class="nav-btn" onclick="navigateTo('aboutus.html')">About us</button>
             <div class="logo">Kalvium</div>
         </nav>
-
+        <!-- <img src="background.png" alt="background"> -->
         <header class="header">
-            <h1>Welcome to kalvium portfolio</h1>
+            
             <p>
                 We’re so excited to have you here! This is your go-to space for
                 updates, resources, and everything happening in our class. Stay

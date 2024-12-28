@@ -1,19 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sqard</title>
-    <link rel="stylesheet" href="squad63.css">
+    <title>Kalvium portfolio </title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
     <div class="homediv">
 
         <nav class="navbar">
+            
+            
             <button class="nav-btn" onclick="navigateTo('home.html')">Home</button>
-            <button class="nav-btn" onclick="navigateTo('Squd63.html')">Squad63</button>
-            <button class="nav-btn" onclick="navigateTo('Squad64.html')">Squad64</button>
+            <div class="dropdown">
+            <button class="nav-btn">Squads</button>
+            <div class="dropdown-content">
+                <a href="#squad63">Squad 63</a>
+                <a href="#squad64">Squad 64</a>
+            </div>
+            </div>
             <button class="nav-btn" onclick="navigateTo('Mentors.html')">Mentors</button>
             <button class="nav-btn" onclick="navigateTo('KPhotos.html')">KPhotos</button>
             <button class="nav-btn" onclick="navigateTo('Achievements.html')">Achievements</button>
@@ -21,81 +29,14 @@
             <button class="nav-btn" onclick="navigateTo('aboutus.html')">About us</button>
             <div class="logo">Kalvium</div>
         </nav>
+        <header class="header">
+            
+            <p>
+                We’re so excited to have you here! This is your go-to space for
+                updates, resources, and everything happening in our class. Stay
+                connected, explore, and let’s make this journey amazing together!
+            </p>
+        </header>
     </div>
-     <main>
-        <span class="student-list">
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-            <h3>Anuj Goyal</h3>
-            <p><strong>Age:</strong> 20</p>
-            <p><strong>Major:</strong> Computer Science</p>
-          </div>
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-
-            <h3>Kartik Choudhary</h3>
-            <p><strong>Age:</strong> 22</p>
-            <p><strong>Major:</strong> Mathematics</p>
-          </div>
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-
-            <h3>Rohan Singh jaglan</h3>
-            <p><strong>Age:</strong> 21</p>
-            <p><strong>Major:</strong> Biology</p>
-          </div>
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-
-            <h3>Jane Smith</h3>
-            <p><strong>Age:</strong> 22</p>
-            <p><strong>Major:</strong> Mathematics</p>
-          </div>
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-
-            <h3>Emily Johnson</h3>
-            <p><strong>Age:</strong> 21</p>
-            <p><strong>Major:</strong> Biology</p>
-          </div>
-        </span>
-        <span class="student-list">
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-            <h3>John Doe</h3>
-            <p><strong>Age:</strong> 20</p>
-            <p><strong>Major:</strong> Computer Science</p>
-          </div>
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-
-            <h3>Jane Smith</h3>
-            <p><strong>Age:</strong> 22</p>
-            <p><strong>Major:</strong> Mathematics</p>
-          </div>
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-
-            <h3>Emily Johnson</h3>
-            <p><strong>Age:</strong> 21</p>
-            <p><strong>Major:</strong> Biology</p>
-          </div>
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-
-            <h3>Jane Smith</h3>
-            <p><strong>Age:</strong> 22</p>
-            <p><strong>Major:</strong> Mathematics</p>
-          </div>
-          <div class="student">
-            <img src="https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-profile-picture-business-profile-woman-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-1323.jpg?semt=ais_hybrid" alt="">
-
-            <h3>Emily Johnson</h3>
-            <p><strong>Age:</strong> 21</p>
-            <p><strong>Major:</strong> Biology</p>
-          </div>
-        </span>
-      </main>
-    
-</body>
+    </body>
 </html>
