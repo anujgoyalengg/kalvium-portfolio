@@ -1,19 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <title>Document</title>
+    <title>Kalvium portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <title>Page Not Found</title>
-<img src="https://i.ibb.co/W6tgcKQ/softcodeon.gif">
-<h1 class="error-text">Whoops, We can't seem to find the resource you're looking for.</h1>
-<p class="text">Please check that the Web site address is spelled correctly.Or,</p>
-<div class="btn1">
-<a class="error" href="index.html">Go to Homepage</a>
-</div>
+    <div class="homediv">
 
-</body>
+        <nav class="navbar">
+            
+            
+            <button class="nav-btn" onclick="navigateTo('home.html')">Home</button>
+            <div class="dropdown">
+            <button class="nav-btn">Squads</button>
+            <div class="dropdown-content">
+                <a href="#squad63">Squad 63</a>
+                <a href="#squad64">Squad 64</a>
+            </div>
+            </div>
+            <button class="nav-btn" onclick="navigateTo('Mentors.html')">Mentors</button>
+            <button class="nav-btn" onclick="navigateTo('KPhotos.html')">KPhotos</button>
+            <button class="nav-btn" onclick="navigateTo('Achievements.html')">Achievements</button>
+            <button class="nav-btn" onclick="navigateTo('Project.html')">Project</button>
+            <button class="nav-btn" onclick="navigateTo('aboutus.html')">About us</button>
+            <div class="logo">Kalvium</div>
+        </nav>
+        
+        
+    </div>
+    </body>
 </html>
