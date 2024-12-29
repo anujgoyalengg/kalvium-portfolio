@@ -8,7 +8,7 @@
 .homediv{
     min-width:100vw;
     min-height:100vh;
-    background: url('pexels-photo-8991520.jpeg');
+    background: url('./assests/pexels-photo-8991520.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
