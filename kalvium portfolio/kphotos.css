@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Arial', serif;
+    background: url('pexels-photo-8991520.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    /* overflow: hidden; */
+}
+
+/* Header
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+} */
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 0px;
+}
+
+.navbar .logo {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.navbar .nav-btn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 10px;
+}
+
+.navbar .nav-btn:hover {
+    color:red;
+    background-color: transparent;
+    transform: scale(1.05);
+}
+.navbar .nav-btn:focus {
+    color: #000000; 
+    background-color: #d4d4d4;
+    outline: none; 
+    transform: scale(1.1); 
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #88888800;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #444;
+    color: #ff0000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logo img {
+    height: 50px;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-section img {
+        margin: 0 auto;
+    }
+
+    .text-section {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links li a {
+        font-size: 0.9rem;
+    }
+
+    .image-section img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+
+.header_para {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px 20px;
+    margin:10px auto;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* photos div  */
+
+.photosMain{
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin:0 10vw ;
+    
+}
+
+.photos {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+.image-link {
+    text-decoration: none;
+}
+
+
+.photos img {
+    width: 350px;
+    justify-content:space-evenly;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); */
+}
+
+
+.photos img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+}
