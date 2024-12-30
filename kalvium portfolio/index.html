@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalvium portfolio </title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Inria+Serif:wght@400;700&display=swap" rel="stylesheet">
     <script src="script.js"></script>
 </head>
-<body>
+<body class="fade-in">
     <div class="homediv">
 
         <nav class="navbar">
@@ -16,7 +17,7 @@
             
             <button class="nav-btn" onclick="navigateTo('home.html')">Home</button>
             <div class="dropdown">
-            <button class="nav-btn">Squads</button>
+            <button class="nav-btn" onclick="navigateTo('Squd63.html')">Squads</button>
             <div class="dropdown-content">
                 <a href="#squad63">Squad 63</a>
                 <a href="#squad64">Squad 64</a>
@@ -27,17 +28,39 @@
             <button class="nav-btn" onclick="navigateTo('Achievements.html')">Achievements</button>
             <button class="nav-btn" onclick="navigateTo('Project.html')">Project</button>
             <button class="nav-btn" onclick="navigateTo('aboutus.html')">About us</button>
-            <div class="logo">Kalvium</div>
+            <div class="logo">
+                <img src="Kalvium_Logo 6.png" alt="">
+            </div>
         </nav>
         <!-- <img src="background.png" alt="background"> -->
-        <header class="header">
-            
-            <p>
-                We’re so excited to have you here! This is your go-to space for
-                updates, resources, and everything happening in our class. Stay
-                connected, explore, and let’s make this journey amazing together!
-            </p>
-        </header>
+        <main>
+            <h1 class="title">
+                <img src="Screenshot 2024-12-29 222624.png" alt="Title Logo">
+            </h1>
+            <p class="subtitle">Welcome's you</p>
+    
+            <div class="image-container">
+                <div class="image-box">
+                    <a href="Squd63.html">
+                    <img src="squad1.png" alt="Squad 63">
+                    </a>
+                    <p>Squad 63</p>
+                </div>
+                <div class="image-box">
+                    <a href="Squad64.html">
+                    <img src="squad2.png" alt="Squad 64">
+                    </a>
+                    <p>Squad 64</p>
+                </div>
+            </div>
+    
+            <footer class="footer">
+                <p> We're so excited to have you here. <br>
+                    This is your go-to space for updates, resources, and everything happening in our class.<br>
+                    Stay connected, explore, and let’s make this journey amazing together!
+                </p>
+            </footer>
+        </main>
     </div>
     </body>
 </html>

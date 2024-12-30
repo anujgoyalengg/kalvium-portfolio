@@ -66,6 +66,13 @@ header {
     outline: none; 
     transform: scale(1.1); 
 }
+.logo {
+    margin-left: auto; /* Pushes the logo to the right */
+}
+
+.logo img {
+    height: 20px; /* Adjust logo size as needed */
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -93,7 +100,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 20px;
 }
 
 /* Main Content */
