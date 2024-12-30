@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   body {
-    background-color: #b91c1c; /* Tailwind's bg-red-700 */
+    background-color: #b91c1c;
     height: auto;
     font-family: Arial, serif;
     background: url('./assests/pexels-photo-8991520.jpeg') no-repeat center center fixed;
