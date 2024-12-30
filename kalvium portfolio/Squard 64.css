@@ -67,14 +67,14 @@ body {
 
 
 
-/* Header */
-/* header {
+Header
+header {
   position: sticky;
   top: 0;
   z-index: 1000;
   background: rgba(0, 0, 0, 0.8);
   padding: 10px 20px;
-} */
+}
 
 .navbar {
   display: flex;
