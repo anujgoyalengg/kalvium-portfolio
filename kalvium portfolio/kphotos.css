@@ -67,6 +67,10 @@ header {
     outline: none; 
     transform: scale(1.1); 
 }
+.logo{
+    margin-right: 20px;
+    margin-left: auto;
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -94,7 +98,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 20px;
 }
 /* Media Queries */
 @media (max-width: 768px) {
