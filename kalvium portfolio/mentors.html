@@ -8,26 +8,32 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <header>
+    <div class="homediv">
         <nav class="navbar">
-              
+            
+            
             <button class="nav-btn" onclick="navigateTo('home.html')">Home</button>
             <div class="dropdown">
-            <button class="nav-btn">Squads</button>
-            <div class="dropdown-content">
-                <a href="./Squd63.html" class="nav-btn" onclick="navigateTo('Squd63.html')">Squad 63</a>
-                <a href="./Squad64.html" class="nav-btn" onclick="navigateTo('Squad64.html')">Squad 64</a>
-            </div>
+             <button class="nav-btn">Squads</button>
+              <div class="dropdown-content">
+                <button class="nav-btn" onclick="navigateTo('Squd63.html')">Squad 63</button>
+                <button class="nav-btn" onclick="navigateTo('Squad64.html')">Squad 64</button>
+                
+               </div>
+        
             </div>
             <button class="nav-btn" onclick="navigateTo('Mentors.html')">Mentors</button>
             <button class="nav-btn" onclick="navigateTo('KPhotos.html')">KPhotos</button>
             <button class="nav-btn" onclick="navigateTo('Achievements.html')">Achievements</button>
             <button class="nav-btn" onclick="navigateTo('Project.html')">Project</button>
             <button class="nav-btn" onclick="navigateTo('aboutus.html')">About us</button>
-            <div class="logo">Kalvium</div>
+            <div class="logo">
+                <img src="./assests/Kalvium_Logo 6.png" alt="Kalvium_Logo">
+            </div>
         </nav>
-    </header>
-    <main>
+        
+    
+     <main>
         <!-- Mentor Section -->
         <section class="mentor">
             <div class="content">
@@ -37,12 +43,14 @@
                     <p>I hold a Master's degree in Life Sciences from Mount Carmel College and a Bachelor's degree in Life Sciences from Galgotias University. My journey in the professional world began in the research sector, where I gained hands-on experience working in labs. I then transitioned into the business world, completing a 1-month internship as a Business Analyst at YBI Foundation, where I conducted comprehensive market analyses and developed predictive models using tools like Excel and Python.</p>
                 </div>
                 <div class="image-section">
+                    <a href="https://www.linkedin.com/in/isha-shukla-29a99a206/">
                     <img src="./assests/Isha.jpeg" alt="Isha Shukla">
+                    </a>
                     <h2>Isha Shukla</h2>
                     <p>PGM</p>
                 </div>
             </div>
-        </section>
+        </section>  
         <!-- Repeat for other mentors -->
         <section class="mentor">
             <div class="content">
@@ -52,7 +60,9 @@
                     <p>I hold a Master's degree in Life Sciences from Mount Carmel College and a Bachelor's degree in Life Sciences from Galgotias University. My journey in the professional world began in the research sector, where I gained hands-on experience working in labs. I then transitioned into the business world, completing a 1-month internship as a Business Analyst at YBI Foundation, where I conducted comprehensive market analyses and developed predictive models using tools like Excel and Python.</p>
                 </div>
                 <div class="image-section">
+                    <a href="https://www.linkedin.com/in/ayan-chowdhury-10a368237/">
                     <img src="./assests/Ayan.jpeg" alt="Ayan Choudhary">
+                    </a>
                     <h2>Ayan Choudhary</h2>
                     <p>Tech Mentor</p>
                 </div>
@@ -66,12 +76,15 @@
                     <p>I hold a Master's degree in Life Sciences from Mount Carmel College and a Bachelor's degree in Life Sciences from Galgotias University. My journey in the professional world began in the research sector, where I gained hands-on experience working in labs. I then transitioned into the business world, completing a 1-month internship as a Business Analyst at YBI Foundation, where I conducted comprehensive market analyses and developed predictive models using tools like Excel and Python.</p>
                 </div>
                 <div class="image-section">
+                    <a href="https://www.linkedin.com/in/harshalkale1109/">
                     <img src="./assests/Harshal.jpeg" alt="Harshal Kale">
+                    </a>
                     <h2>Harshal Kale</h2>
                     <p>Tech Mentor</p>
                 </div>
             </div>
         </section>
     </main>
+    </div>
 </body>
 </html>

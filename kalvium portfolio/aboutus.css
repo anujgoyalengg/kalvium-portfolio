@@ -2,15 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
 
-
-body {
-    font-family: Arial, serif;
-    background: url('./assests/pexels-photo-8991520.jpeg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
 }
 
 .homediv{
@@ -24,7 +16,11 @@ body {
     justify-content: center;
     padding: 10px;
 }
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
 .navbar {
     display: flex;
     flex-wrap: wrap;;
@@ -106,20 +102,88 @@ body {
 .logo img {
     height: 20px;
 }
-
-/* Main Content */
-.mentor {
-    padding: 40px 20px;
-    display: flex;
-    justify-content: center;
+.squad-section {
+    font-family: 'Inria Serif', serif;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
 }
 
+.section-title {
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-decoration: underline 1px rgb(255, 255, 255);
+    text-underline-offset: 6px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+    margin-bottom: 60px; /* Increased space between images and description */
+}
+
+
+.squad-image {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.squad-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
+}
+
+.squad-description {
+   
+    max-width: 1500px;
+    margin: 0px auto 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.squad-description, .image-container {
+    font-family: 'Inria Serif', serif;
+}
+.k-growth-mindset {
+    background-color: rgba(0, 0, 0, 0); /* Match your current theme */
+    color: white;
+    font-family: "Inria Serif", serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.k-growth-mindset h2 {
+    text-decoration: underline;
+    text-underline-offset: 4px; /* Adds space between text and underline */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.k-growth-mindset p {
+    max-width: 1500px;
+    margin: 0px auto 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.our-team {
+    background-color: rgba(0, 0, 0, 0); /* Match your current theme */
+    color: white;
+    font-family: "Inria Serif", serif;
+    padding: 20px;
+    text-align: center;
+}
 .content {
+    margin-left: 10rem;
     display: flex;
     align-items: center;
     max-width: 1200px;
     width: 100%;
-    gap: 40px;
+    gap: 100px;
 }
 
 .text-section {
@@ -139,6 +203,7 @@ body {
 
 .image-section {
     text-align: center;
+    margin-left: 5rem;
 }
 
 .image-section img {
@@ -158,31 +223,4 @@ body {
 .image-section p {
     font-size: 1rem;
     font-weight: bold;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .image-section img {
-        margin: 0 auto;
-    }
-
-    .text-section {
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    .nav-links li a {
-        font-size: 0.9rem;
-    }
-
-    .image-section img {
-        width: 200px;
-        height: 200px;
-    }
 }
