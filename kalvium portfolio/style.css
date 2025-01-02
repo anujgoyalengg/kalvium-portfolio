@@ -144,6 +144,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     width: 600px;
+    height: 300px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -161,6 +162,8 @@ body {
 .footer {
     font-family: 'Inria Serif', serif;
     color: white;
+    stroke: #000000;
+    font-weight: bold;
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
     padding: 1rem;
