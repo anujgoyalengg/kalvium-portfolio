@@ -5,7 +5,7 @@
 
 }
 
-.homediv{
+body{
     min-width:100vw;
     min-height:100vh;
     background: url('./assests/pexels-photo-8991520.jpeg');
@@ -16,11 +16,11 @@
     justify-content: center;
     padding: 10px;
 }
-body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-}
+} */
 .navbar {
     display: flex;
     flex-wrap: wrap;;

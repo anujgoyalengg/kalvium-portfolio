@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #b91c1c; /* Tailwind's bg-red-700 */
+  background-color: #b91c1c; 
   height: auto;
   font-family: Arial, serif;
   background: url('./assests/pexels-photo-8991520.jpeg') no-repeat center center fixed;
   background-size: cover;
   color: white;
   margin: 0;
+  padding: 10px;
 }
-.homediv{
+/* .homediv{
   min-width:100vw;
   min-height:100vh;
   background: url('./assests/pexels-photo-8991520.jpeg');
@@ -21,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10px;
-}
+} */
 
 .navbar {
   display: flex;
@@ -29,7 +30,7 @@ body {
   /* justify-content: space-between; */
   align-items: center;
   background-color: transparent;
-  padding-top: 10px;
+  /* padding: 10px 20px; */
   position: sticky;
   top: 0;
   left: 0;
@@ -37,6 +38,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   gap: 0px;
+  background-color: transparent;
 }
 
 .navbar .logo {
@@ -72,7 +74,6 @@ body {
 .logo {
   margin-right: 20px;
   margin-left: auto; /* Pushes the logo to the right */
-  
 }
 
 
