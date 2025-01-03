@@ -6,35 +6,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
 
 
-body {
-    font-family: 'Arial', serif;
-    background: url('./assests/pexels-photo-8991520.jpeg') no-repeat center center fixed;
+body{
+    min-width:100vw;
+    min-height:100vh;
+    background: url('./assests/pexels-photo-8991520.jpeg');
+    background-repeat: no-repeat;
     background-size: cover;
-    color: white;
-    /* overflow: hidden; */
-}
-
-Header
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 10px 20px;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 .navbar {
     display: flex;
+    flex-wrap: wrap;;
     /* justify-content: space-between; */
     align-items: center;
     background-color: transparent;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     position: sticky;
     top: 0;
+    left: 0;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     gap: 0px;
+    background-color: #00000025;
 }
 
 .navbar .logo {
@@ -67,10 +65,12 @@ header {
     outline: none; 
     transform: scale(1.1); 
 }
-.logo{
+.logo {
     margin-right: 20px;
-    margin-left: auto;
+    margin-left: auto; /* Pushes the logo to the right */
 }
+
+
 .dropdown {
     position: relative;
     display: inline-block;
