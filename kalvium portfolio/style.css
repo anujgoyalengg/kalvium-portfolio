@@ -20,7 +20,7 @@ body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-} */
+} */ 
 .navbar {
     display: flex;
     flex-wrap: wrap;;
@@ -176,6 +176,44 @@ body{
     -moz-animation: fadeInAnimation ease 1s;
     -o-animation: fadeInAnimation ease 1s;
     -ms-animation: fadeInAnimation ease 1s;
+}
+footer {
+    background-color: transparent; /* Light peach background */
+    color: #ffffff; /* Black text */
+    text-align: center;
+    align-items: end;
+    padding: 10px 0;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between links */
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #ffffff; /* Black text */
+    font-size: 14px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0;
 }
 
 @keyframes fadeInAnimation {
