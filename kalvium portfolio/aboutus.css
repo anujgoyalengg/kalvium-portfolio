@@ -29,7 +29,7 @@ body {
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
-    gap: 0px;
+    gap: 0px; 
     background-color: #00000025;
 }
 
@@ -166,4 +166,41 @@ body {
     margin: 0px auto 0 auto;
     font-size: 18px;
     line-height: 1.6;
+}
+footer {
+    background-color: #00000000; /* Light peach background */
+    color: #ffffff; /* Black text */
+    text-align: center;
+    padding: 10px 0;
+    
+    
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between links */
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #ffffff; /* Black text */
+    font-size: 14px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0;
 }
