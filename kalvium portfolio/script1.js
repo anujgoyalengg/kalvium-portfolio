@@ -159,20 +159,31 @@ function navigateTo(page) {
   function populateTeamGrid() {
     const grid = document.getElementById("team-grid");
     teamMembers.forEach(member => {
-      const card = document.createElement("div");
-      card.classList.add("card");
-      card.innerHTML = `
+        const card = document.createElement("div");
+        card.classList.add("card");
+        card.innerHTML = `
             <img src="${member.image}" alt="${member.name}" class="card-img">
             <h2 class="card-title">${member.name}</h2>
             <div class="icons">
-                <a href="${member.linkedin}" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
-                <a href="${member.website}" target="_blank" class="icon"><i class="fas fa-globe"></i></a>
-                <a href="${member.github}" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+                ${
+                    member.linkedin
+                        ? `<a href="${member.linkedin}" target="_blank" class="icon"><img src="./assests/linkedin.png" alt="LinkedIn"></a>`
+                        : `<img src="./assests/linkedin.png" alt="No LinkedIn" class="icon">`
+                }
+                ${
+                    member.github
+                        ? `<a href="${member.github}" target="_blank" class="icon"><img src="./assests/github.png" alt="GitHub"></a>`
+                        : `<img src="./assests/github.png" alt="No GitHub" class="icon">`
+                }
             </div>
         `;
-      grid.appendChild(card);
+        grid.appendChild(card);
     });
-  }
+}
+  
+  // Run on Load
+  window.onload = populateTeamGrid;
+  
   
   // Run on Load
   window.onload = populateTeamGrid;
