@@ -7,42 +7,34 @@
 
 
 body{
-    min-width:100vw;
-    min-height:100vh;
-    background: url('./assests/pexels-photo-8991520.jpeg');
-    background-repeat: no-repeat;
+    font-family: Arial, serif;
+    background: url('./assests/pexels-photo-8991520.jpeg') no-repeat center center fixed;
     background-size: cover;
+    color: rgb(255, 255, 255);
     
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
 }
-
 .navbar {
     display: flex;
-    flex-wrap: wrap;;
     /* justify-content: space-between; */
     align-items: center;
     background-color: transparent;
-    /* padding: 10px 20px; */
+    padding: 10px 20px;
     position: sticky;
     top: 0;
-    left: 0;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     gap: 0px;
-    background-color: #00000025;
-}
- 
-.navbar .logo {
+  }
+    
+  .navbar .logo {
     color: #ff0000;
     font-size: 24px;
     font-weight: bold;
     margin-left: auto;
-}
-
-.navbar .nav-btn {
+  }
+    
+  .navbar .nav-btn {
     background-color: transparent;
     color: #fff;
     border: none;
@@ -52,54 +44,48 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     margin-left: 10px;
-}
-
-.navbar .nav-btn:hover {
+  }
+    
+  .navbar .nav-btn:hover {
     color:red;
     background-color: transparent;
     transform: scale(1.05);
-}
-.navbar .nav-btn:focus {
+  }
+  .navbar .nav-btn:focus {
     color: #000000; 
     background-color: #d4d4d4;
     outline: none; 
     transform: scale(1.1); 
-}
-.logo {
-    margin-right: 20px;
-    margin-left: auto; /* Pushes the logo to the right */
-}
-
-
-.dropdown {
+  }
+  .dropdown {
     position: relative;
     display: inline-block;
-}
-.dropdown-content {
+  }
+  .dropdown-content {
     display: none;
     position: absolute;
     background-color: #88888800;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
-}
-.dropdown-content a {
+  }
+  .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
-.dropdown-content a:hover {
+  }
+  .dropdown-content a:hover {
     background-color: #444;
     color: #ff0000;
-}
-.dropdown:hover .dropdown-content {
+  }
+  .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.logo img {
-    height: 20px;
-}
+  }
+    
+  .logo img {
+      height: 20px;
+  }
 /* Media Queries */
 @media (max-width: 768px) {
     .content {

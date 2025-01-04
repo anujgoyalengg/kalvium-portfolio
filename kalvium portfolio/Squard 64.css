@@ -11,7 +11,7 @@ body {
   background-size: cover;
   color: white;
   margin: 0;
-  padding: 10px;
+  
 }
 /* .homediv{
   min-width:100vw;
@@ -23,31 +23,45 @@ body {
   justify-content: center;
   padding: 10px;
 } */
- 
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+body::-webkit-scrollbar-track{
+  background: rgb(0, 0, 0); /* Dark transparent track */
+  
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.8); /* Red thumb */
+  border-radius: 40px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 0, 0, 1); /* Darker red thumb on hover */
+  
+}
 .navbar {
   display: flex;
-  flex-wrap: wrap;;
   /* justify-content: space-between; */
   align-items: center;
   background-color: transparent;
-  /* padding: 10px 20px; */
+  padding: 10px 20px;
   position: sticky;
   top: 0;
-  left: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   gap: 0px;
-  background-color: transparent;
 }
-
+  
 .navbar .logo {
   color: #ff0000;
   font-size: 24px;
   font-weight: bold;
   margin-left: auto;
 }
-
+  
 .navbar .nav-btn {
   background-color: transparent;
   color: #fff;
@@ -59,7 +73,7 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
   margin-left: 10px;
 }
-
+  
 .navbar .nav-btn:hover {
   color:red;
   background-color: transparent;
@@ -71,12 +85,6 @@ body {
   outline: none; 
   transform: scale(1.1); 
 }
-.logo {
-  margin-right: 20px;
-  margin-left: auto; /* Pushes the logo to the right */
-}
-
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -102,9 +110,9 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+  
 .logo img {
-  height: 20px;
+    height: 20px;
 }
 .container {
   max-width: 1200px;
