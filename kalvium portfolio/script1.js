@@ -52,7 +52,7 @@ function navigateTo(page) {
         {
             name: "Hardik Tailor",
             github: "https://github.com/Hardyx07",
-            linkedin: "https://www.linkedin.com/in/hardik-tailor",
+            linkedin:"https://www.linkedin.com/in/hardik-tailor-49b986304?",
             image: "./assests/hardik.tailor.jpg"
         },
         {
